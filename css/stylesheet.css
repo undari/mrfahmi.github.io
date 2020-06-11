@@ -1,0 +1,243 @@
+html {
+    position: relative;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333;
+    background-color: #fff;
+}
+
+a {
+    text-decoration: none;
+}
+
+h2 {
+    font-size: 40px;
+}
+
+.container,
+.jumbotron {
+    max-width: 1170px;
+    width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+header {
+    height: 65px;
+    width: 100%;
+    background-color: rgba(34, 49, 52, 0.9);
+    position: fixed;
+    top: 0;
+    z-index: 10;
+}
+
+.header-left {
+    float: left;
+    margin-top: 20px;
+}
+
+.header-left a {
+    line-height: 25px;
+    color: white;
+    float: left;
+    font-size: larger;
+}
+
+.header-left span {
+    color: red;
+    font-size: x-large;
+}
+
+.header-right {
+    float: right;
+    margin-right: 25px;
+}
+
+.header-right a {
+    line-height: 65px;
+    padding: 0 25px;
+    color: white;
+    display: block;
+    float: left;
+    transition: all 0.5s;
+}
+
+.header-right a:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+/* Add CSS for menu-icon */
+.menu-icon {
+    color: white;
+    float: right;
+    font-size: 25px;
+    padding: 21px 0;
+    /* Change the display property to none */
+    display: none;
+}
+
+/*Adapted CSS from bootstrap.css*/
+.jumbotron {
+    width: 100%;
+    color: inherit;
+    background-color: whitesmoke;
+    display: block;
+}
+
+.jumbotron img {
+    margin-top: 100px;
+    width: 200px;
+    border: 5px solid #666;
+}
+
+.jumbotron h1 {
+    font-size: 65px;
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 1.1;
+}
+
+.jumbotron p {
+    margin-bottom: 30px;
+    font-size: 25px;
+    font-weight: 200;
+}
+
+.img-circle {
+    border-radius: 50%;
+}
+
+.text-center {
+    text-align: center;
+}
+
+hr {
+    width: 250px;
+    border-top: 3px solid #999;
+}
+
+.col-left {
+    width: 45%;
+    float: left;
+    text-align: justify;
+    position: relative;
+    min-height: 1px;
+    padding-right: 30px;
+    padding-left: 15px;
+}
+
+.col-right {
+    width: 45%;
+    float: right;
+    text-align: justify;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 30px;
+}
+
+
+input,
+textarea {
+    width: 400px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    padding: 20px;
+    font-size: 18px;
+    border: 1px solid #dee7ec;
+}
+
+.contact-submit {
+    background-color: #dee7ec;
+    color: #889eab;
+}
+
+.footer {
+    background-color: #2f5167;
+    color: #fff;
+    height: 120px;
+    padding: 40px;
+}
+
+.footer-logo {
+    float: left;
+    font-size: 32px;
+}
+
+.footer-logo span {
+    color: red;
+}
+
+.footer-btn-wrapper {
+    float: right;
+    text-align: center;
+    margin: 20px 0;
+}
+
+.footer-btn-wrapper p {
+    margin: 10px 0;
+}
+
+.btn {
+    padding: 12px 24px;
+    color: white;
+    display: inline-block;
+    opacity: 0.8;
+    border-radius: 4px;
+    text-align: center;
+}
+
+.facebook {
+    background-color: #3b5998;
+    margin-right: 10px;
+}
+
+.instagram {
+    background-color: salmon;
+    margin-right: 10px;
+}
+
+.btn:hover {
+    opacity: 1;
+}
+
+.message {
+    padding: 15px 40px;
+    background-color: #5dca88;
+    cursor: pointer;
+    box-shadow: 0 7px #1a7940;
+}
+
+.btn {
+    /* padding: 12px 24px; */
+    color: white;
+    display: inline-block;
+    opacity: 0.8;
+    border-radius: 4px;
+    text-align: center;
+}
+
+.message-wrapper {
+    border-bottom: 1px solid #eee;
+    padding-bottom: 80px;
+    text-align: center;
+}
+
+
+.message:active {
+    position: relative;
+    top: 7px;
+    box-shadow: none;
+}
+
+footer {
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
